@@ -15,9 +15,16 @@
             width: 50px;
             height: 50px;
         }
+        .border {
+            border-radius: 10px;
+        }
+        .nav-item a:hover {
+            background-color: #1B5911;
+            border-radius: 0 10px;
+        }
     </style>
 
-    <title>Suculentas - cultive verde no seu lar!</title>
+    <title>Suculentas - Cultive verde no seu lar!</title>
 </head>
 
 <body>
@@ -25,8 +32,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
         <a class="navbar-brand" href="#">
             <img src="assets/img/suculenta-icon.png" width="40" height="30" class="d-inline-block align-top"
-                alt="Logo de suculenta">
-            Cultivee</a>
+                alt="Logo de suculenta"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +41,7 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">INÍCIO<span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="#" on>INÍCIO<span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">QUEM SOMOS</a>
@@ -53,6 +59,9 @@
                     </div>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">COMPRE O SEU E-BOOK</button>
+            </form>
         </div>
     </nav>
     <!--/Menu-->
@@ -139,8 +148,8 @@
         <!--/Cards-->
 
         <!--Texto e Vídeo-->
-        <div class="row mt-5 mb-5">
-            <div class="col-md-6 font-weight-light">
+        <div class="row mt-5 mb-5 border border-dark">
+            <div class="col-md-6 font-weight-light mt-5">
                 <h3>4 bons motivos para amar e cultivar cactos e suculentas em casa</h3>
                 <p>Ok, você já descobriu que não tem o tal dedo verde, um dom natural para cuidar das plantas. Mas,
                     saiba que ainda não é hora de desistir de ter um espaço mais verdinho dentro de casa! Você só
@@ -150,7 +159,7 @@
             </div>
             <!--Vídeo-->
             <div class="col-md-6">
-                <iframe width="560" height="315" class="w-100" src="https://www.youtube.com/embed/rErKYAdePns"
+                <iframe width="560" height="315" class="w-100 mt-3 mb-3" src="https://www.youtube.com/embed/rErKYAdePns"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -160,8 +169,9 @@
 
         <!--Formulário de contato-->
         <div class="row mb-5">
-            <div class="col-md-12">
-                <h4 class="text-center">Entre em contato conosco e receba o nosso e-book gratuito!</h4>
+            <div class="col-md-12 mt-5">
+                <h5 class="text-center">Ainda com dúvidas sobre como cuidar dessas belezinhas?</h5>
+                <h5 class="text-center">Entre em contato conosco, vamos adorar te ajudar!</h5>
             </div>
         </div>
 
@@ -196,41 +206,40 @@
             </div>
         </div>
         <!--/Formulário de contato-->
-
-        <!--Footer-->
-        <footer>
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <h4 class="text-center">Siga-nos nas redes sociais</h4>
-                </div>
-            </div>
-            <div class="row mb-3 mt-5">
-                <div class="col-md-12 d-flex justify-content-center">
-                                        
-                    <a href="https://www.facebook.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
-                    </a>
-
-                    <a href="https://www.instagram.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
-                    </a>
-
-                    <a href="https://www.linkedin.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
-                    </a>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center font-italic">
-                        Todos os direitos reservados - Gabriela Gomes &copy;
-                    </p>
-                </div>
-            </div>
-        </footer>
-        <!--/Footer-->
     </div>
+    <!--Footer-->
+    <footer class="bg-success">
+        <div class="row mt-5">
+            <div class="col-md-12 mt-5">
+                <h4 class="text-center text-white">Siga-nos nas redes sociais</h4>
+            </div>
+        </div>
+        <div class="row mb-3 mt-3">
+            <div class="col-md-12 d-flex justify-content-center">
+
+                <a href="https://www.facebook.com/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+                </a>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center font-italic">
+                    Todos os direitos reservados - Gabriela Gomes &copy;
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer-->
 
 
 
