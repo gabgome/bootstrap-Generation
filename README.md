@@ -1,2 +1,2 @@
 # bootstrap-Generation
-Conteúdo desenvolvido como exercícios durante o Bootcamp Generation.
+Site desenvolvido como introdução ao Framework Bootstrap. Desenvolvido no Bootcamp Generation Brasil.
